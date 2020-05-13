@@ -20,8 +20,11 @@ module.exports.routes = {
   ***************************************************************************/
 
  '/': { view: 'pages/homepage' },
- '/articles/list': { view: 'pages/list' },
+ //'/articles/list': { view: 'pages/list' },
+ '/articles/list': { action: 'post/list' },
  '/articles/add': { view: 'pages/add' },
+
+ 'POST /api/controllers/post/list': { action: 'post/list' },
 
   /***************************************************************************
   *                                                                          *
