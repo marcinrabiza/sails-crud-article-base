@@ -28,7 +28,6 @@ module.exports = {
             }
 
             return res.redirect('/articles/list');
-            //return res.json(articles);
         });
     },
     delete: function(req, res){
@@ -42,6 +41,7 @@ module.exports = {
 
         return false;
     },
+    
     edit: function(req, res){
         Articles.findOne({id:req.params.id}).exec(function(err, article){
             if(err){
