@@ -18,13 +18,15 @@ module.exports.routes = {
   * `assets` directory)                                                      *
   *                                                                          *
   ***************************************************************************/
-
+ 
+ // THIS IS IMPORTANT: Routes must point out not some views or actions, but certain Controller functions such as CREATE or LIST!
+ 
  '/': { view: 'pages/homepage' },
- //'/articles/list': { view: 'pages/list' },
- '/articles/list': { action: 'post/list' },
+ '/articles/list': 'ArticlesController.list',
  '/articles/add': { view: 'pages/add' },
+ '/articles/create': 'ArticlesController.create',
 
- 'POST /api/controllers/post/list': { action: 'post/list' },
+ //'POST /api/controllers/post/list': { action: 'post/list' },
 
   /***************************************************************************
   *                                                                          *
