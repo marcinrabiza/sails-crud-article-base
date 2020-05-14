@@ -4,21 +4,17 @@ a [Sails v1](https://sailsjs.com) application
 
 ### How to test?
 
-1. 
-
-2. Initialize application server with ```node server.js``` command in the project directory.
-
-3. Test the app at [localhost:4000](http://localhost:4000).
-
-![Node TODO App](screen.png
-
 1. To run the application you should have MongoDB installed. Look for the database at ```localhost:27017```.
 
 2. To run the application you should have Node.js installed with some additional packages. Use ```sudo npm install <module>``` command in the project directory.
 
 3. Initialize application server with ```sails.lift``` command in the project directory.
 
-4. Access the API on http://localhost:1337/
+4. Test the app at[localhost:1337](http://localhost:1337).
+
+### Screens
+
+
 
 ### Links
 
