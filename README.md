@@ -17,8 +17,6 @@ A simple CRUD article management application made with [Sails.js](https://sailsj
 
 ![ArticleBase Sails.js 2](screen%202.png)
 
----
-
 ### Links
 
 + [Sails framework documentation](https://sailsjs.com/get-started)
