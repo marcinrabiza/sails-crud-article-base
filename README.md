@@ -1,8 +1,8 @@
 # article-base
 
-a [Sails v1](https://sailsjs.com) application
+A simple CRUD article management application made with [Sails.js](https://sailsjs.com), [EJS](https://ejs.co) and [MongoDB](https://www.mongodb.com).
 
-### How to test?
+## How to test?
 
 1. To run the application you should have MongoDB installed. Look for the database at ```localhost:27017```.
 
@@ -10,11 +10,11 @@ a [Sails v1](https://sailsjs.com) application
 
 3. Initialize application server with ```sails.lift``` command in the project directory.
 
-4. Test the app at[localhost:1337](http://localhost:1337).
+4. Test the app at [localhost:1337](http://localhost:1337).
 
-### Screens
-
-
+## Screens
+![ArticleBase Sails.js 1](screen 1.png)
+![ArticleBase Sails.js 2](screen 1.png)
 
 ### Links
 
