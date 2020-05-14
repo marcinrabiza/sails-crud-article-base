@@ -13,7 +13,7 @@ A simple CRUD article management application made with [Sails.js](https://sailsj
 4. Test the app at [localhost:1337](http://localhost:1337).
 
 ## Screens
-![ArticleBase Sails.js 1](screen 1.png)
+![ArticleBase Sails.js 1](/screen 1.png)
 ![ArticleBase Sails.js 2](screen 1.png)
 
 ### Links
