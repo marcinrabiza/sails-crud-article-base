@@ -25,9 +25,10 @@ module.exports.routes = {
  '/articles/list': 'ArticlesController.list',
  '/articles/add': { view: 'pages/add' },
  '/articles/create': 'ArticlesController.create',
- '/articles/delete/:id' : 'ArticlesController.delete'  //Here i must pass ID somehow? It works with soem hardcoded existing (ex. /5ebb07a07bd7a24c1c2f4b8f)
+ '/articles/delete/:id' : 'ArticlesController.delete',  // Pass ID with :id 
+ '/articles/edit/:id' : 'ArticlesController.edit',
+ '/articles/update/:id' : 'ArticlesController.update'
 
- //'POST /api/controllers/post/list': { action: 'post/list' },
 
   /***************************************************************************
   *                                                                          *
