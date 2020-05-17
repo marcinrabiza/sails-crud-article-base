@@ -2,7 +2,7 @@
 
 A simple CRUD article management application made with [Sails.js](https://sailsjs.com), [EJS](https://ejs.co) and [MongoDB](https://www.mongodb.com).
 
-### How to test?
+### How to run?
 
 1. To run the application you should have MongoDB installed. Look for the database at [localhost:27017](http://localhost:27017) (URI: ```mongodb://127.0.0.1:27017```). Take notice that *ID* field points on Mongo *ObjectID*, which is 12 bytes in length primary key consisting of timestamp value, random value and incrementing counter. 
 
