@@ -35,7 +35,7 @@ module.exports.datastores = {
  mongodb: {
 
   adapter: 'sails-mongo',
-  url = 'mongodb://root@localhost/27017',
+  // url = 'mongodb://root@localhost/27017',
   host: 'localhost',
   port: 27017,
   database: 'articlebase'
